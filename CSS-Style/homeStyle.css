@@ -1,0 +1,471 @@
+body
+{
+	background-color:#d9d9d9;
+	font-family:Arial;
+	padding:0px;
+	margin:0px;
+	width:100%;
+}
+header
+{
+	margin:0px;
+	height:auto;
+	width:100%;
+	position: fixed;
+	top:0;
+	z-index: 200;
+}
+#logoImage
+{
+	height: 80px;
+	float:left;
+	margin-left: 30px;
+	margin-top: 15px;	
+}
+#nav_container
+{
+	font-size: 20px;
+	list-style-type: none;
+	background-color: white;
+	margin-top:0px;
+	margin-bottom: 0px;
+	text-align: right;
+	padding-right: 70px;
+	padding-top:70px;
+	padding-bottom: 15px;   
+}
+li
+{
+    display: inline;
+	padding: 10px 15px;
+}
+header a
+{
+    position:relative;
+    text-decoration:none;
+    color: black;
+	padding:0px;   
+}
+header a:hover
+{
+	color:black;	
+}
+header a:before
+{
+	content: "";
+  	position: absolute;
+  	width: 100%;
+  	height: 2px;
+  	bottom: 0;
+  	left: 0;
+  	background-color: black;
+  	visibility: hidden;
+  	-webkit-transform: scaleX(0);
+ 	transform: scaleX(0);
+  	-webkit-transition: all 0.3s ease-in-out 0s;
+  	transition: all 0.3s ease-in-out 0s;
+}
+header a:hover:before
+{
+	visibility: visible;
+  	-webkit-transform: scaleX(1);
+  	transform: scaleX(1);
+}
+#mainContainer
+{
+    position: relative;
+    display: inline-block;
+    background-color:transparent;  
+}
+#mainLogoImageContainer
+{
+    position:absolute;
+    left:0;
+    top:0;
+    background-color: white;
+    width:36%;
+    height:99.40%;
+    float:left;
+    z-index: 2;
+    opacity: .75;      
+}
+#mainLogoImage
+{
+	width:400px;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+}
+#picsContainer
+{
+  	position: relative;
+  	color: white;
+    width: 100%;
+    float:right;
+    height:100%	
+}
+#mainImage1
+{
+    position:relative;   
+    width:100%;
+}
+#toMiddleButton
+{
+	background-color:transparent;
+	width: 155px;
+	height: 70px;
+	padding-bottom: 25px;
+	border-radius:10px;
+	border: 4px solid white;
+    position:absolute;
+	top:500px;
+	left:60%;
+    display: block;
+	margin-left:auto;
+    margin-right:auto;
+}
+#arrow
+{
+  	border: solid white;
+  	border-width: 0 4px 4px 0;
+  	display: inline-block;
+  	padding: 3px;
+	width: 30px;
+	height:30px;	
+}
+.down 
+{
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+#toMiddleButton:hover
+{
+	border-width: 6px;
+    opacity: .85;
+}
+#pressArrow
+{
+    position:absolute;
+    font-size: 20px;
+    top:460px;
+	left:60.50%;
+    z-index:5;
+    color: white;
+    font-weight: 900;
+    font-stretch: 100%;
+    letter-spacing: -2.7px; 
+}
+#bar
+{
+    height : 108px;
+    width : 100%;
+    display:block;
+    background-color: white;
+}
+#middleContainer
+{
+	position:relative;
+	height:651px;
+	color: white;
+  	font-size: 60px;
+    border:solid transparent;
+}
+#slideshowContainer
+{
+    margin-top: 25px;
+    display:block;
+    width: 100%;
+    height: 325px;
+    background-color: white;
+}
+.slide
+{
+    height:100%;
+    display:none;
+    margin-left:auto;
+    margin-right:auto;
+    text-decoration: none;
+    border:0;
+}
+.buttonStyle1
+{
+    width:30px;
+    height:70px;
+}
+#buttonSlideLeft
+{
+    position:absolute;
+    top:150px; 
+    left:0;
+}
+#arrow2
+{
+  	border: solid black;
+  	border-width: 0 4px 4px 0;
+  	display: inline-block;
+  	padding: 0px;
+	width: 10px;
+	height:10px;
+}
+.right
+{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-right:0px;
+}
+.left
+{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin-left:3px;
+}
+#buttonSlideRight
+{
+    position:absolute;
+    top:150px; 
+    right:0;
+    padding-right: 25px; 
+}
+#tempSlide
+{
+    height:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#infoBlocksContainer
+{
+    width: 90%;
+    height: 200px;
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left:auto;
+}
+.midBlock
+{
+    width: 48%;
+    height: 100%;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+#locationContainer
+{
+    float:left;
+    background-color: #020f68;
+}
+#locImage
+{
+    float:left;
+    width: 25%;
+    margin-left:30px;
+    margin-top:25px;
+}
+
+#locDesContainer
+{
+    height:100%;
+    width: 65%;
+    float: right;
+    background-color: white;
+}
+
+#locText
+{
+    text-align: right;
+    margin-right:25px;
+    margin-top: 15px;
+    color:#020f68;
+    font-size: 33px;
+    font-weight: 900;
+    font-stretch: 100%;
+    letter-spacing: -2.7px;
+}
+
+#familyContainer
+{
+    float: right;
+    background-color: black;
+}
+#famImage
+{
+    float:left;
+    width: 18%;
+    margin-left:45px;
+    margin-top:25px;
+}
+#familyDesContainer
+{
+    height:100%;
+    width: 65%;
+    float: right;
+    background-color: white;
+}
+#famText1
+{
+    text-align: left;
+    margin-left:20px;
+    margin-top: 15px;
+    color:black;
+    font-size: 29px;
+    font-weight: 900;
+    font-stretch: 100%;
+    letter-spacing: -2.7px;
+}
+#famText2
+{
+    text-align: right;
+    margin-right:20px;
+    margin-top: 15px;
+    color:black;
+    font-size: 23px;
+    font-weight: 900;
+    font-stretch: 100%;
+    letter-spacing: -2.7px;
+}
+#insuredContainer
+{
+    margin-top:25px;
+    background-color:#e20717;
+    margin-bottom:25px;
+}
+#insuranceImage
+{
+    height:70%;
+    margin-top:25px;
+    margin-left:45px;
+}
+#insuranceDesContainer
+{
+    height:100%;
+    width: 65%;
+    float: right;
+    background-color: white;
+}
+#insuranceText
+{
+    color:#e20717;
+    font-size: 40px;
+    font-weight: 900;
+    font-stretch: 100%;
+    letter-spacing: -2.7px;
+    margin-top:60px;
+    margin-left:30px;
+}
+#title
+{
+    color:white;
+    width: auto;
+    font-size: 50px;
+    font-weight: 900;
+    font-stretch: 100%;
+    letter-spacing: -2.7px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    visibility:hidden;
+}
+#infoBlock
+{
+    margin: 10px 18px;
+    font-size:20px;
+    font-weight: 700;
+    text-align: right;
+    font-family: Arial;
+	visibility:hidden;
+}
+#LocationImage
+{
+	max-width:100%;
+	position:absolute;
+	bottom:0;
+	display:block;
+}
+#ContactPopUpBlockContainer
+{
+    float:right;
+    color: black;
+    background-color: #00004d;
+    padding-left: 18px;
+    padding-right: 18px;
+    display:none;
+    height: 130px;
+    width:370px;
+    position:absolute;
+    right:0;
+    bottom: 20%;
+    z-index:50;
+}
+#titleCallUs
+{
+    color:white;
+    width: auto;
+    font-size: 50px;
+    font-weight: 900;
+    font-stretch: 100%;
+    letter-spacing: -2.7px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+#callUsinfoBlock
+{
+    color:white;
+    margin-top:0px;
+    margin-bottom: 30px;
+    margin-left:18px;
+    font-size:25px;
+    font-weight: 700;
+    text-align: left;
+    font-family: Arial;
+    letter-spacing: -1.5px;
+}
+#whatWeDoContainer
+{
+    width:1040px;
+    height:500px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    z-index:3;
+    visibility:hidden;
+    font-weight: 900;
+    font-stretch: 100%;
+    letter-spacing: -2.7px;
+    color:black;
+    border: solid yellow;
+}
+#slide3Image1
+{
+    height:45%;
+    position:absolute;
+    left:69%;
+    top:0px;
+    float:left;
+    z-index: 2;
+}
+#slide3Image2
+{
+    height:45%;
+    position:absolute;
+    left:38%;
+    top:0px;
+    z-index: 1;
+}
+
+#text1Container
+{
+    position:relative;
+    float:left;
+    width:auto;
+    height:auto;
+    padding-left:0px;
+    padding-right:0px;
+    margin-left: 20px;
+    margin-top: 70px;
+    border: solid green;
+    font-size:55px;
+}
