@@ -135,8 +135,8 @@ header a:hover:before
     color:white;
     margin-top:25px;
     margin-left: 25px;
-    width: 200px;
-    font-size: 34px;
+    width: 80%;
+    font-size:34px;
     z-index: 1;
     position:relative;
 }
@@ -177,7 +177,7 @@ header a:hover:before
     color:white;
     margin-top:25px;
     margin-left: 25px;
-    width: 200px;
+    width: 38%;
     height:200px;
     display:none;
     font-size:20px;
@@ -196,27 +196,32 @@ header a:hover:before
 .serviceImage2
 {
     position:absolute;
-    bottom:25px;
+    top:240px;
     right:25px;
     display:none;
 }
 #frameImage2
 {
-    width:50%;   
+    width:48%;
+    top:40px;
+    right:25px;
 }
 #frameImage3
 {
-    width:50%;
+    width:48%;
+    top:255px;
+    right:25px;
 }
 #sidingImage2
 {
-    width:50%;
-    bottom:40px;
+    width:48%;
+    
 }
 #sidingImage3
 {
-    width:50%;
-    bottom:40px;
+    width:48%;
+    top:210px;
+    
 }
 #windowImage2
 {
