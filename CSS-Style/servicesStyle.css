@@ -84,6 +84,7 @@ header a:hover:before
     font-stretch: 0%;
     letter-spacing: 0px;
     text-align: center;
+    position:relative;
 }
 #servicesContainer
 {
@@ -96,11 +97,21 @@ header a:hover:before
     margin-top: 30px;
     margin-bottom: 30px;
     */
+    margin-right:0px;
+    margin-top: 30px;
+    margin-right:auto;
+    margin-left: auto;
+    position:relative;
+    
+    /*
     position: absolute;
     top: 425px;
     left: 50%;
     transform: translate(-50%, -50%);
-    border:solid red;
+    border:solid yellow;
+    */
+    
+    border:solid yellow;
     
     
 }
