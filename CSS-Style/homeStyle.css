@@ -252,19 +252,52 @@ header a:hover:before
     margin-right: auto;
     background-color: white;
 }
+/* ************ */
+.iconContainer
+{
+    height:100%;
+    width:35%;
+    float:left;
+    display: block;
+    position: relative;
+    
+}
+#locationIconCon
+{
+    background-color: #020f68;
+}
+#famIconCon
+{
+    background-color: black;
+}
+#insuredIconCon
+{
+    background-color: #e20717 ;
+}
+.desContainer
+{
+    
+    height:100%;
+    width: 65%;
+    float: right;
+    
+}
+.imageIconBlock
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:82%;
+    float:left;
+    
+    
+}
 #locationContainer
 {
     float:left;
     background-color: #020f68;
 }
-#locImage
-{
-    float:left;
-    width: 25%;
-    margin-left:30px;
-    margin-top:25px;
-}
-
 #locDesContainer
 {
     height:100%;
@@ -289,13 +322,6 @@ header a:hover:before
 {
     float: right;
     background-color: black;
-}
-#famImage
-{
-    float:left;
-    width: 18%;
-    margin-left:45px;
-    margin-top:25px;
 }
 #familyDesContainer
 {
@@ -331,12 +357,6 @@ header a:hover:before
     margin-top:25px;
     background-color:#e20717;
     margin-bottom:25px;
-}
-#insuranceImage
-{
-    height:70%;
-    margin-top:25px;
-    margin-left:45px;
 }
 #insuranceDesContainer
 {
