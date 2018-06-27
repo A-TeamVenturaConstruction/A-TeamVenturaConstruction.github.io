@@ -187,7 +187,7 @@ header a:hover:before
     margin-right:auto;
     text-decoration: none;
     border:0;
-    max-width: 97%;
+    max-width: 95%;
 }
 .buttonStyle1
 {
@@ -311,8 +311,10 @@ header a:hover:before
 #locText
 {
     text-align: right;
-    margin-right:25px;
+    margin-left:20px;
     margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 15px;
     color:#020f68;
     font-size: 33px;
     font-weight: 900;
@@ -338,6 +340,7 @@ header a:hover:before
     margin-left:20px;
     margin-top: 15px;
     margin-right: 20px;
+    margin-bottom: 15px;
     color:black;
     font-size: 29px;
     font-weight: 900;
