@@ -364,6 +364,7 @@ header a:hover:before
     width: 65%;
     float: right;
     background-color: white;
+    position:relative;
 }
 #insuranceText
 {
@@ -372,8 +373,15 @@ header a:hover:before
     font-weight: 900;
     font-stretch: 100%;
     letter-spacing: -2.7px;
+    width:80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*
     margin-top:60px;
     margin-left:30px;
+    */
 }
 #title
 {
