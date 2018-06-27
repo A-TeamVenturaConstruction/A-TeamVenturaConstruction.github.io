@@ -91,9 +91,9 @@ header a:hover:before
 #questionsContainer
 {
     color:black;
-    width: 510px;
+    width:40%;
     height:400px;
-    margin-left:40px;
+    margin-left:0px;
     margin-right:0px;
     margin-top: 0px;
     text-align: left;
@@ -101,7 +101,7 @@ header a:hover:before
     font-size: 70px;    
     position:absolute;
     left:50%;
-    top:35%;
+    top:30%;
 }
 #questions
 {
@@ -112,8 +112,8 @@ header a:hover:before
 {
     background-color: #00004d;
     color:white;
-    width: 450px;
-    height:80%;
+    width: 35%;
+    height:500px;
     position:absolute;
     left:7%;
     top:0%;
