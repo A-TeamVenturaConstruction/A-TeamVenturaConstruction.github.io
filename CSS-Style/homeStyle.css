@@ -380,6 +380,7 @@ header a:hover:before
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
     /*
     margin-top:60px;
     margin-left:30px;
