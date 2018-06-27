@@ -187,6 +187,7 @@ header a:hover:before
     margin-right:auto;
     text-decoration: none;
     border:0;
+    max-width: 100%;
 }
 .buttonStyle1
 {
@@ -316,7 +317,7 @@ header a:hover:before
     font-size: 33px;
     font-weight: 900;
     font-stretch: 100%;
-    letter-spacing: -2.7px;
+    letter-spacing:-1px;
 }
 
 #familyContainer
@@ -333,9 +334,10 @@ header a:hover:before
 }
 #famText1
 {
-    text-align: left;
+    text-align: center;
     margin-left:20px;
     margin-top: 15px;
+    margin-right: 20px;
     color:black;
     font-size: 29px;
     font-weight: 900;
@@ -347,11 +349,12 @@ header a:hover:before
     text-align: right;
     margin-right:20px;
     margin-top: 15px;
+    margin-left: 20px;
     color:black;
     font-size: 23px;
     font-weight: 900;
     font-stretch: 100%;
-    letter-spacing: -2.7px;
+    letter-spacing: -1px;
 }
 #insuredContainer
 {
