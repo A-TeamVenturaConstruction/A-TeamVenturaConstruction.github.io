@@ -96,6 +96,7 @@ header a:hover:before
     margin-left: auto;
     position:relative;
     margin-bottom: 30px;
+    overflow: hidden;
 }
 .serviceBlock
 {
