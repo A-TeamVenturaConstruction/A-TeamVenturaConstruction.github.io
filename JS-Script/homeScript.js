@@ -41,7 +41,7 @@ function autoSlides() {
             slideIndex = 1;
         }
         listOfSlides[slideIndex - 1].style.display = "block";
-        setTimeout(autoSlides, 3700);
+        setTimeout(autoSlides, 4000);
     } else {
         //starts manual slides
         startSlides(slideIndex);
