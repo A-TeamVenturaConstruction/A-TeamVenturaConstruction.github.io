@@ -19,9 +19,11 @@ function expandFrameContainer() {
     $('#frameContainer').animate({width: '49%' }, {queue: false, complete: function () {
         // Double double check: the if statements are to catch if mouse has left
         if (frameStillIn === 1) {
+            $('#frameTitleDesContainer').css("width", "50%"); //****ADDED***
             $('#frameDes').fadeIn();
             $('#frameImage2').fadeIn();
             $('#frameImage3').fadeIn();
+            $('#frameServiceImagesContainer').fadeIn(); //****ADDED***
         }
     }});
 }
@@ -31,9 +33,11 @@ function expandSidingContainer() {
     $('#frameContainer').animate({width: '17%' }, {queue: false});
     $('#sidingContainer').animate({width: '49%' }, {queue: false, complete: function () {
         if (sidingStillIn === 1) {
+            $('#sidingTitleDesContainer').css("width", "50%"); //****ADDED***
             $('#sidingDes').fadeIn();
             $('#sidingImage2').fadeIn();
             $('#sidingImage3').fadeIn();
+            $('#sidingServiceImagesContainer').fadeIn(); //****ADDED***
         }
     }});
     $('#decksContainer').animate({width: '17%' }, {queue: false});
@@ -46,9 +50,11 @@ function expandDecksContainer() {
     $('#sidingContainer').animate({width: '17%' }, {queue: false});
     $('#decksContainer').animate({width: '49%'}, {queue: false, complete: function () {
         if (deckStillIn === 1) {
+            $('#deckTitleDesContainer').css("width", "50%"); //****ADDED***
             $('#decksDes').fadeIn();
             $('#deckImage2').fadeIn();
             $('#deckImage3').fadeIn();
+            $('#deckServiceImagesContainer').fadeIn(); //****ADDED***
         }
     }});
     $('#projectsContainer').animate({width: '17%' }, {queue: false});
@@ -62,9 +68,11 @@ function expandDoorWindowsContainer() {
     $('#projectsContainer').animate({width: '49%' }, {queue: false, complete: function () {
         
         if (DWStillIn === 1) {
+            $('#windowTitleDesContainer').css("width", "50%"); //****ADDED***
             $('#windowsDes').fadeIn();
             $('#windowImage2').fadeIn();
             $('#windowImage3').fadeIn();
+            $('#windowServiceImagesContainer').fadeIn(); //****ADDED***
         }
         
     }});
@@ -72,27 +80,36 @@ function expandDoorWindowsContainer() {
 // reset Functions are to fade out images and bring in images needed when mouse leaves for each specific container
 function resetFrameContainer() {
     "use strict";
+    
     $('#frameDes').hide();
     $('#frameImage2').hide();
     $('#frameImage3').hide();
+    $('#frameServiceImagesContainer').hide(); //****ADDED*********************
+    $('#frameTitleDesContainer').css("width", "100%"); //****ADDED********************
 }
 function resetSidingContainer() {
     "use strict";
     $('#sidingDes').hide();
     $('#sidingImage2').hide();
     $('#sidingImage3').hide();
+    $('#sidingServiceImagesContainer').hide(); //****ADDED*********************
+    $('#sidingTitleDesContainer').css("width", "100%"); //****ADDED********************
 }
 function resetDecksContainer() {
     "use strict";
     $('#decksDes').hide();
     $('#deckImage2').hide();
     $('#deckImage3').hide();
+    $('#deckServiceImagesContainer').hide(); //****ADDED*********************
+    $('#deckTitleDesContainer').css("width", "100%"); //****ADDED********************
 }
 function resetDoorWindowsContainer() {
     "use strict";
     $('#windowsDes').hide();
     $('#windowImage2').hide();
     $('#windowImage3').hide();
+    $('#windowServiceImagesContainer').hide(); //****ADDED*********************
+    $('#windowTitleDesContainer').css("width", "100%"); //****ADDED********************
 }
 
 //sets the service containers back to there original size, also fades out inside images
