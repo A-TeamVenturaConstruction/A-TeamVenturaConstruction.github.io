@@ -273,6 +273,7 @@ header a:hover:before
     background-color: white;
     z-index: 9;
     
+    
 }
 /* ************ */
 .iconContainer
@@ -286,15 +287,24 @@ header a:hover:before
 }
 #locationIconCon
 {
-    background-color: #020f68;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+#LocImage
+{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%;
 }
 #famIconCon
 {
     background-color: black;
-}
-#insuredIconCon
-{
-    background-color: #e20717 ;
 }
 .desContainer
 {
@@ -312,29 +322,29 @@ header a:hover:before
     transform: translate(-50%, -50%);
     height:72%;
     float:left;
-    
-    
 }
 #locationContainer
 {
     float:left;
-    background-color: #020f68;
+    background-color: white;
 }
 #locDesContainer
 {
     height:100%;
-    width: 65%;
-    float: right;
-    background-color: white;
+    width: 80%;
+    float: left;
+    background-color: transparent;
+    
 }
 
 #locText
 {
-    text-align: right;
-    margin-left:20px;
-    margin-top: 15px;
-    margin-right: 20px;
-    margin-bottom: 15px;
+    text-align: left;
+    position: relative;
+    margin-top:10px;
+    margin-left: 15px;
+    margin-right: 2px;
+    padding:5px;
     color:#020f68;
     font-size: 33px;
     font-weight: 900;
