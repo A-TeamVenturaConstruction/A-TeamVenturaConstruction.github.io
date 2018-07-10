@@ -210,11 +210,9 @@ header a:hover:before
 }
 #buttonSlideLeft
 {
-    
     position:absolute;
     top:130px; 
     left:0;
-   
 }
 #arrow2
 {
@@ -272,18 +270,6 @@ header a:hover:before
     margin-right: auto;
     background-color: white;
     z-index: 9;
-    
-    
-}
-/* ************ */
-.iconContainer
-{
-    height:100%;
-    width:35%;
-    float:left;
-    display: block;
-    position: relative;
-    
 }
 #locationIconCon
 {
@@ -302,26 +288,11 @@ header a:hover:before
     left:0;
     width:100%;
 }
-#famIconCon
-{
-    background-color: black;
-}
 .desContainer
 {
-    
     height:100%;
     width: 65%;
     float: right;
-    
-}
-.imageIconBlock
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height:72%;
-    float:left;
 }
 #locationContainer
 {
@@ -334,9 +305,7 @@ header a:hover:before
     width: 80%;
     float: left;
     background-color: transparent;
-    
 }
-
 #locText
 {
     text-align: left;
@@ -355,183 +324,50 @@ header a:hover:before
 #familyContainer
 {
     float: right;
-    background-color: black;
+    background-color: white;
 }
 #familyDesContainer
 {
     height:100%;
-    width: 65%;
-    float: right;
-    background-color: white;
+    width: 100%%;
+    float: left;
+    background-color:transparent;
 }
 #famText1
 {
-    text-align: center;
-    margin-left:20px;
+    text-align: left;
+    margin-left:15px;
     margin-top: 15px;
     margin-right: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     color:black;
     font-size: 29px;
-    font-weight: 900;
+    font-weight: 800;
     font-stretch: 100%;
-    letter-spacing: -2.7px;
+    letter-spacing: -1.7px;
 }
 #famText2
 {
-    text-align: right;
-    margin-right:20px;
-    margin-top: 15px;
-    margin-left: 20px;
-    color:black;
-    font-size: 23px;
-    font-weight: 900;
-    font-stretch: 100%;
-    letter-spacing: -1px;
-}
-#insuredContainer
-{
-    background-color:#e20717;   
-}
-#insuranceDesContainer
-{
-    height:100%;
-    width: 65%;
-    float: right;
-    background-color: white;
-    position:relative;
-}
-#insuranceText
-{
-    color:#e20717;
-    font-size: 40px;
-    font-weight: 900;
-    font-stretch: 100%;
-    letter-spacing: -2.7px;
-    width:80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    /*
-    margin-top:60px;
-    margin-left:30px;
-    */
-}
-#title
-{
-    color:white;
-    width: auto;
-    font-size: 50px;
-    font-weight: 900;
-    font-stretch: 100%;
-    letter-spacing: -2.7px;
-    margin-left:auto;
-    margin-right:auto;
-    text-align: center;
-    visibility:hidden;
-}
-#infoBlock
-{
-    margin: 10px 18px;
-    font-size:20px;
-    font-weight: 700;
-    text-align: right;
     font-family: Arial;
-	visibility:hidden;
-}
-#LocationImage
-{
-	max-width:100%;
-	position:absolute;
-	bottom:0;
-	display:block;
-}
-#ContactPopUpBlockContainer
-{
+    text-align: right;
     float:right;
-    color: black;
-    background-color: #00004d;
-    padding-left: 18px;
-    padding-right: 18px;
-    display:none;
-    height: 130px;
-    width:370px;
-    position:absolute;
-    right:0;
-    bottom: 20%;
-    z-index:50;
-}
-#titleCallUs
-{
-    color:white;
-    width: auto;
-    font-size: 50px;
-    font-weight: 900;
-    font-stretch: 100%;
-    letter-spacing: -2.7px;
-    margin-left:auto;
-    margin-right:auto;
-    text-align: center;
-}
-#callUsinfoBlock
-{
-    color:white;
-    margin-top:0px;
-    margin-bottom: 30px;
-    margin-left:18px;
-    font-size:25px;
-    font-weight: 700;
-    text-align: left;
-    font-family: Arial;
-    letter-spacing: -1.5px;
-}
-#whatWeDoContainer
-{
-    width:1040px;
-    height:500px;
-    position: absolute;
-    top: 30px;
-    right: 0px;
-    z-index:3;
-    visibility:hidden;
-    font-weight: 900;
-    font-stretch: 100%;
-    letter-spacing: -2.7px;
+    width:80%;
+    margin-right:20px;
+    margin-top: 0px;
+    margin-left:20px;
     color:black;
-    border: solid yellow;
+    font-size: 25px;
+    font-weight: 550;
+    font-stretch: 100%;
+    letter-spacing: -1px;   
 }
-#slide3Image1
+#famImage
 {
-    height:45%;
+    width:100%;
     position:absolute;
-    left:69%;
-    top:0px;
-    float:left;
-    z-index: 2;
-}
-#slide3Image2
-{
-    height:45%;
-    position:absolute;
-    left:38%;
-    top:0px;
-    z-index: 1;
-}
-
-#text1Container
-{
-    position:relative;
-    float:left;
-    width:auto;
-    height:auto;
-    padding-left:0px;
-    padding-right:0px;
-    margin-left: 20px;
-    margin-top: 70px;
-    border: solid green;
-    font-size:55px;
+    left:0;
+    bottom:0;
+    z-index:-5;
 }
 #endPageBar
 {
