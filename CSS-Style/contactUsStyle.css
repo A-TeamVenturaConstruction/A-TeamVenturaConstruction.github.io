@@ -1,0 +1,401 @@
+body
+{
+	background-color:#d9d9d9;
+	font-family:Arial;
+	padding:0px;
+	margin:0px;
+	width:100%;
+}
+header
+{
+	margin:0px;
+	height:auto;
+	width:100%;
+	position: fixed;
+	top:0;
+	z-index: 200;
+    
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 1px;
+}
+#topHeadline
+{
+    width:100%;
+    color: white;
+    /*background-color:#020f68;*/
+    background-color: black;
+    font-size: 3vw;
+    font-weight: 900;
+    font-stretch: 100%;
+    letter-spacing:-1px;
+    text-align: center;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+#logoImage
+{
+	width: 80px;
+	float:left;
+	margin-left: 30px;
+	margin-top: 15px;
+    
+}
+#logo
+{
+   height: 20px; 
+}
+#menuImage
+{
+    position: absolute;
+    bottom:10%;
+    
+    right:10px;
+    
+    width: 50px;
+	float:right;
+	display: none;
+    
+}
+#nav_container
+{
+	font-size: 2vw;
+	list-style-type: none;
+	background-color: white;
+	margin-top:0px;
+	margin-bottom: 0px;
+	text-align: right;
+    
+	padding-right: 70px;
+	padding-top:70px;
+	padding-bottom: 15px;   
+}
+.nav_list
+{
+    display: inline;
+	padding: 10px 15px;
+}
+.nav_link
+{
+    position:relative;
+    text-decoration:none;
+    color: black;
+	padding:0px;   
+}
+.nav_link:hover
+{
+	color:black;	
+}
+.nav_link:before
+{
+	content: "";
+  	position: absolute;
+  	width: 100%;
+  	height: 2px;
+  	bottom: 0;
+  	left: 0;
+  	background-color: black;
+  	visibility: hidden;
+  	-webkit-transform: scaleX(0);
+ 	transform: scaleX(0);
+  	-webkit-transition: all 0.3s ease-in-out 0s;
+  	transition: all 0.3s ease-in-out 0s;
+}
+.nav_link:hover:before
+{
+	visibility: visible;
+  	-webkit-transform: scaleX(1);
+  	transform: scaleX(1);
+}
+
+
+#menu_show_container
+{
+    text-align: center;
+    background-color: white;
+    width:100%;
+    height:auto;
+    text-align: center;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    display:none;
+    border-bottom-style: solid;
+    border-bottom-width:2px;
+    border-bottom-color: gray;
+}
+#menu_nav_container
+{
+    color:white;
+    list-style-type: none; 
+    width: 100%;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.menu_nav_list
+{
+    
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:0px;
+    width:50%;
+    text-decoration: none;
+    list-style-type: none;
+    border-bottom-style: solid;
+    border-bottom-width:2px;
+    border-bottom-color: #d9d9d9;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.menu_nav_link
+{
+    position:relative;
+    text-decoration:none;
+    color: #020f68;
+	padding:0px; 
+    font-weight:700;
+    font-size: 5vw;
+}
+.menu_nav_list:hover
+{
+	color:black;
+    background-color: white;
+}
+.menu_nav_link:hover
+{
+	color:black;
+    text-decoration: underline;
+}
+#menu_title
+{
+    font-size: 5vw;
+    color:gray;
+    border-bottom-width: 0px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+}
+#menu_list_one
+{
+    border-top-width: 2px;
+    border-top-color: #d9d9d9;
+    border-top-style: solid;
+}
+#close_box
+{
+    width:40px;
+    height: auto;
+    font-size: 4vw;
+    padding: 10px;
+    background-color:#020f68;
+    color:white;
+    text-align: center;
+    position: absolute;
+    right:20px;
+    top:60px;
+    
+}
+#close_image
+{
+    width:8vw;
+    height: auto;
+    font-size: 4vw;
+    padding: 0px;
+    background-color:#020f68;
+    color:white;
+    text-align: center;
+    position: absolute;
+    right:20px;
+    top:60px;
+    display: none;
+    
+}
+#bar
+{
+    height : 180px;
+    width : 100%;
+    display:block;
+    background-color: #d9d9d9;
+    overflow: auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.titleFont
+{
+    font-weight: 900;
+    font-stretch: 100%;
+    letter-spacing: -2.7px;  
+}
+#questionsContainer
+{
+    color:black;
+    width:90%;
+    
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 60px;
+    text-align: left;
+    padding-right: 0px;
+    font-size: 70px;    
+    position:relative;
+    margin-bottom: 80px;
+    
+}
+#questions
+{
+    margin-top: 30px;
+    font-size: 5vw;   
+    margin-left: 10px;
+    text-align: left;
+    letter-spacing: 0;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+#contactInfo
+{
+    background-color:transparent;
+    color:black;
+    position:absolute;
+    left:500px;;
+    top:30px;
+    text-align: left;
+    letter-spacing: 0;
+    
+}
+#ownerTitle
+{
+    font-size: 60px;
+    margin-left:0px;
+    margin-top:0px;
+    margin-right:0px;
+    font-weight: 1000;
+    
+    
+    color:#020f68;
+    
+}
+
+
+.image_container
+{
+    width:90%;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.actual_image
+{
+    width:100%;
+}
+
+#question_title
+{
+    width: 100%;
+    text-align: left;
+    color: #020f68;
+    font-size: 7vw;
+}
+#end_bar
+{
+    width: 100%;
+    height: 150px;
+}
+#contact_container
+{
+    text-align: center;
+    width:90%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 0px;
+    height: auto;
+    margin-bottom: 100px;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: auto;
+    
+    
+}
+#phone
+{
+    float:left;
+    width:48%;
+    text-align: center;
+    background-color: white;
+    
+}
+#email
+{
+    float:right;
+    width:48%;
+    text-align: center;
+    background-color: white;
+    
+}
+.contact_logo
+{
+    width:20%;
+}
+.logo_text
+{
+    font-weight: 900;
+    font-stretch: 100%;
+    letter-spacing: 0px;
+    font-size: 3vw;
+    color: black;
+}
+.logo_text_bottom
+{
+    font-weight: 600;
+    font-size: 2vw;
+    color: black;
+}
+#bottom_space
+{
+    width:100%;
+    height: 300px;
+}
+#phone_num_link
+{
+    text-decoration: none;
+    color:black;
+}
+#click
+{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 3.1vw;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    background-color: white;
+    
+}
+#phone_top_link
+{
+    text-decoration: none;
+    color:white;
+}
+#dont_display
+{
+    font-size: 0;
+    width:1px;
+    height: 1px;
+    display:inline-block;
+    overflow:hidden;
+    position: absolute;
+    border:0;
+    padding:0;
+    margin:0;
+    clip: rect(1px,1px,1px,1px);
+}

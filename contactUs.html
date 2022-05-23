@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet" href = "CSS-Style\contactUsStyle.css">
+</head>
+<body>
+<header>
+    <div id = "topHeadline">
+        <a id ="phone_top_link"  href = "tel:+1-214-603-6739">214 - 603 - 6739</a>
+    </div>
+	<a id = "logo" href = "index.html"> <img id = "logoImage" style = "height:40px; width:auto;" src="images\logo_no_number.jpg" alt="A. Team Ventura Construction Logo. Image Description: White background. The logo which is outlined in black, is a 2d house with a roof, and 4 equally divided windows making up the the front of the house. The four windows start at the bottom of the house and go all the way up following the roof. It also has a line at the bottom of the house to resemble the the ground. Under the house it says A.Team Ventura Construction." ></a>
+	<ul id = "nav_container">
+    	<li id = "list_one" class = "nav_list"><a class = "nav_link" href = "index.html" >Home</a></li>
+    	<li id = "list_two" class = "nav_list"> <a class = "nav_link" href= "about.html">About</a></li>
+    	<li id = "list_three" class = "nav_list"> <a class = "nav_link"  href= "services.html">Services</a></li>
+    	<li id = "list_four" class = "nav_list"><a class = "nav_link" id = "onPage" href= "contactUs.html">Contact</a></li>
+	</ul>
+    <img id = "menuImage" src="images\home\menu_image.png" alt="Menu Button, press this button to open the navigation menu" onclick = "show_menu()">
+    <div id = "menu_show_container">
+            
+            <ul id = "menu_nav_container">
+                    
+    	           <li id = "menu_list_one" class = "menu_nav_list"><a class = "menu_nav_link" href = "index.html" >Home</a></li>
+    	           <li id = "menu_list_two" class = "menu_nav_list"> <a class = "menu_nav_link" href= "about.html">About</a></li>
+    	           <li id = "menu_list_three" class = "menu_nav_list"> <a class = "menu_nav_link"  href= "services.html">Services</a></li>
+    	           <li id = "menu_list_four" class = "menu_nav_list"><a class = "menu_nav_link" id = "onPage" href= "contactUs.html">Contact</a></li>
+	       </ul>
+    
+    </div>
+    
+    <img id = "close_image" src="images\home\close_image.png"  onclick = "close_menu()" alt = "This a button that closes the navigation menu, it is dark blue with a white x in the middle">
+</header>
+<div id = "bar"></div>
+<div class = "image_container">
+    <h1 id = "dont_display" >Owner Info: Name: Oscar Ventura, Owner Phone Number: 2146036739, Owner Email: ateamventuraconstruction@gmail.com</h1>
+    <img class = "actual_image" src="images\contact\owner_info_image.png" alt = "
+                                                                                Image Description: This image has a picture on the far left of Oscar Ventura beginning to remove a piece of roof, with a hammer, they are demoing. On the right of it, in dark blue text
+                                                                                 Owner and in black text the Owner's Info">
+</div>
+<div id = "questionsContainer" class = "titleFont">
+    <div id = "question_title">Contact Us</div>
+    <div id = "questions">Any questions?<br>Need a free estimate on a job?<br>Give us a call/text or send us an email!<br>We will set it up!</div>
+</div>
+
+<h1 id = "click"> Click one of the following to get in contact with us!</h1>
+<div id = "contact_container">
+    
+            <div id = "phone">
+                <a href = "tel:+1-214-603-6739">
+                    <img class = "contact_logo" src="images\contact\phone_four_logo.png" alt = "Click this button to redirect you to put the phone number in your dialer so you can call or text Oscar. Image Description: touchscreen phone icon, outlined in white, inside a dark blue circle">
+                </a>
+                     <div class = "logo_text_bottom">Give us a call/text</div>
+                    <div class = "logo_text_bottom"><a id = "phone_num_link" href = "tel:+1-214-603-6739"></a></div>
+            </div>
+            <div id = "email">
+                <a href = "mailto:ateamventuraconstruction@gmail.com">
+                    <img class = "contact_logo" src="images\contact\email_four_logo.png" alt = "Click this button to redirect you to send an email to Oscar, using the email account your signed into, on this device. Image Description: envelope icon , outlined in white, inside a dark blue circle">
+                </a>
+                    <div class = "logo_text_bottom">Send us an email</div>
+                    <div class = "logo_text_bottom"><a id = "phone_num_link" href = "mailto:ateamventuraconstruction@gmail.com" ></a></div>    
+            </div>
+</div>
+<div id = "end_bar">
+</div>
+</body>
+
+<script type="text/javascript" src="JS-Script/contactUsScript.js"></script>
+</html>
