@@ -32,6 +32,7 @@ function checkScreen()
                             document.getElementById("list_two").style.display = "none";
                             document.getElementById("list_three").style.display = "none";
                             document.getElementById("list_four").style.display = "none";
+                            document.getElementById("topHeadline").style.fontSize = "6vw";
                            
                             document.getElementById("menuImage").style.display = "block";
                             //document.getElementById("experience_title").style.marginTop = "30px";
@@ -44,7 +45,7 @@ function checkScreen()
                                 document.getElementById("menuImage").style.height = "100px";
                                 document.getElementById("menuImage").style.width = "100px";
                                 //bar height
-                                document.getElementById("bar").style.height = "135px";
+                                document.getElementById("bar").style.height = "155px";
                             }
                             else
                             {
@@ -53,7 +54,7 @@ function checkScreen()
                                 //resize image
                                 document.getElementById("logoImage").style.height = "50px";
                                 //bar height
-                                document.getElementById("bar").style.height = "95px";
+                                document.getElementById("bar").style.height = "125px";
                             }
                             
                             
@@ -66,7 +67,8 @@ function checkScreen()
                              document.getElementById("list_one").style.display = "inline";
                             document.getElementById("list_two").style.display = "inline";
                             document.getElementById("list_three").style.display = "inline";
-                            document.getElementById("list_four").style.display = "inline"; 
+                            document.getElementById("list_four").style.display = "inline";
+                            document.getElementById("topHeadline").style.fontSize = "3vw";
                             //resize nav container
                             document.getElementById("nav_container").style.paddingTop = "70px";
                             //resize image
