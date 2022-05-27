@@ -32,14 +32,28 @@ function checkScreen()
                             document.getElementById("list_two").style.display = "none";
                             document.getElementById("list_three").style.display = "none";
                             document.getElementById("list_four").style.display = "none";
-                            //resize nav container
-                            document.getElementById("nav_container").style.paddingTop = "60px";
-                            //resize image
-                            document.getElementById("logoImage").style.height = "50px";
-                            //bar height
-                            document.getElementById("bar").style.height = "95px";
+                           
                             document.getElementById("menuImage").style.display = "block";
                             //document.getElementById("experience_title").style.marginTop = "30px";
+                            if(screen_width <= 800)
+                            {
+                                //resize nav container
+                                document.getElementById("nav_container").style.paddingTop = "120px";
+                                //resize image
+                                document.getElementById("logoImage").style.height = "100px";
+                                document.getElementById("menuImage").style.height = "100px";
+                                //bar height
+                                document.getElementById("bar").style.height = "135px";
+                            }
+                            else
+                            {
+                                //resize nav container
+                                document.getElementById("nav_container").style.paddingTop = "60px";
+                                //resize image
+                                document.getElementById("logoImage").style.height = "50px";
+                                //bar height
+                                document.getElementById("bar").style.height = "95px";
+                            }
                             
                             
                         }
@@ -56,6 +70,7 @@ function checkScreen()
                             document.getElementById("nav_container").style.paddingTop = "70px";
                             //resize image
                             document.getElementById("logoImage").style.height = "80px";
+                            
                             //bar height
                             document.getElementById("bar").style.height = "170px";
                            
@@ -68,8 +83,11 @@ checkScreen();
 
 window.addEventListener('resize', 
     function(event){
-                        screen_width = window.innerWidth;
-                        screen_height = window.innerHeight;
+                        browser_width = window.innerWidth;
+                        browser_height = window.innerHeight;
+                        
+                        screen_width = screen.width;
+                        screen_height = screen.height;
                         //document.getElementById("endPageBar").innerHTML = "Width: " + screen_width + " Height: " + screen_height;
     
                         checkScreen();
