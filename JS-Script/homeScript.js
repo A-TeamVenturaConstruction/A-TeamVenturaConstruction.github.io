@@ -42,6 +42,7 @@ function checkScreen()
                                 //resize image
                                 document.getElementById("logoImage").style.height = "100px";
                                 document.getElementById("menuImage").style.height = "100px";
+                                document.getElementById("menuImage").style.width = "100px";
                                 //bar height
                                 document.getElementById("bar").style.height = "135px";
                             }
