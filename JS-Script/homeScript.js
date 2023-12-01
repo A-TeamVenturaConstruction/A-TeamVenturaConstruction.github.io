@@ -92,7 +92,11 @@ window.addEventListener('resize',
                         screen_width = screen.width;
                         screen_height = screen.height;
                         //document.getElementById("endPageBar").innerHTML = "Width: " + screen_width + " Height: " + screen_height;
-    
+                        
+                        //Closes menu when resized since if you dont close it then
+                        //both buttons will show with menu open
+                        close_menu();
+                        //Checks screen and resizes if neccesary
                         checkScreen();
                         
                     });
